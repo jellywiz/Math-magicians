@@ -1,27 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
@@ -59,14 +37,18 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math-magicians] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is a simple calculator which is build with react.
 
 **[Math-magicians]** is a react application which performs basic mathematical equations
 
 ## 🛠 Built With <a name="built-with"></a>
 
   <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
     <li>React</li>
+    <li>Webpack</li>
   </ul>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -99,9 +81,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Single Page Application**
+- **Displays a math_related quote**
+- **Make simple calculations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,6 +109,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- node.js
+- git
+
 <!--
 Example command:
 
@@ -139,6 +124,14 @@ Example command:
 
 Clone this repository to your desired folder:
 
+- Open your terminal
+
+- Navigate to the directory where you want to clone the project.
+
+- Clone the project using by running the following command:
+
+`git clone https://github.com/jellywiz/Math-magicians.git`
+
 <!--
 Example commands:
 
@@ -150,7 +143,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: node js, run this command `npm install` in the terminal
 
 <!--
 Example command:
@@ -165,6 +158,9 @@ Example command:
 
 To run the project, execute the following command:
 
+- `npm run build`
+- `npm run start`
+
 <!--
 Example command:
 
@@ -177,6 +173,8 @@ Example command:
 
 To run tests, run the following command:
 
+- `npm run test`
+
 <!--
 Example command:
 
@@ -187,7 +185,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: `npm run deploy`
 
 <!--
 Example:
@@ -205,17 +203,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Muzaffer Dler**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Muzaffer Dler](https://github.com/jellywiz/)
+- LinkedIn: [@Muzaffer Dler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
+- LinkedIn: [@Muzaffer Dler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
