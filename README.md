@@ -37,8 +37,6 @@
 
 # 📖 [Math-magicians] <a name="about-project"></a>
 
-> This is a simple calculator which is build with react.
-
 **[Math-magicians]** is a react application which performs basic mathematical equations
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -60,22 +58,6 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -101,8 +83,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -111,14 +91,6 @@ In order to run this project you need:
 
 - node.js
 - git
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -132,27 +104,9 @@ Clone this repository to your desired folder:
 
 `git clone https://github.com/jellywiz/Math-magicians.git`
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
 ### Install
 
 Install this project with: node js, run this command `npm install` in the terminal
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
@@ -161,47 +115,21 @@ To run the project, execute the following command:
 - `npm run build`
 - `npm run start`
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
 To run tests, run the following command:
 
 - `npm run test`
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
 ### Deployment
 
 You can deploy this project using: `npm run deploy`
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Muzaffer Dler**
 
@@ -210,16 +138,6 @@ Example:
 - LinkedIn: [@Muzaffer Dler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,9 +155,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project feel free to leave a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,9 +163,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse for motivating me to build this beautiful project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,13 +173,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[How to run this project?]**
 
-  - [Answer_1]
+  - [You need to have [Node.js](https://nodejs.org/en/download/) in your local machine, and in the root of the project write `npm run start` in the terminal]
 
-- **[Question_2]**
+- **[Is it open source?]**
 
-  - [Answer_2]
+  - [Yes you are allowed to use this project]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
