@@ -1,0 +1,93 @@
+.calculator {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 420px;
+  border: 1px solid #000;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.calculator-show {
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ccc;
+  align-items: center;
+}
+
+.key {
+  font-family: sans-serif;
+  width: 100px;
+  height: 70px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-keys {
+  display: flex;
+  flex-direction: column;
+}
+
+.operator-keys {
+  display: flex;
+  flex-direction: column;
+}
+
+.function-keys {
+  display: flex;
+  flex-direction: row;
+}
+
+.digit-keys {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.key0 {
+  flex-grow: 2;
+}
+
+.orange-key {
+  background-color: orange;
+}
+
+.keydot {
+  font-size: 5px;
+}
+
+.key:hover {
+  background-color: #ccc;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.key:active {
+  background-color: #fff;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.orange-key:hover {
+  background-color: orange;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.orange-key:active {
+  background-color: orange;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
