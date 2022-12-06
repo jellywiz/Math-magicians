@@ -1,24 +1,27 @@
 import { Link } from 'react-router-dom';
+import '../css/Navbar.css';
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <div>
-      <nav>
-        <h1>Math Magicians</h1>
-        <ul className="navbar">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="calculator">Calculator</Link>
-          </li>
-          <li>
-            <Link to="quote">Quote</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <h1>Math Magicians</h1>
+      <ul className="navbar">
+        <li>
+          <Link className="link" to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="calculator">
+            Calculator
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="quote">
+            Quote
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
-
-export default Navbar;
