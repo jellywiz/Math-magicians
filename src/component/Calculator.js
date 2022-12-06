@@ -15,35 +15,96 @@ export default function Calculator() {
   };
 
   return (
-    <div className="calculator">
-      <div className="calculator-show">{ state.next || state.total }</div>
-      <div className="calculator-container">
-        <div className="input-keys">
-          <div className="function-keys">
-            <button onClick={handleClick} type="button" className="key">AC</button>
-            <button onClick={handleClick} type="button" className="key">+/-</button>
-            <button onClick={handleClick} type="button" className="key">%</button>
+    <div>
+      <h1>Lets do some Math!</h1>
+      <div className="calculator">
+        <div className="calculator-show">{state.next || state.total}</div>
+        <div className="calculator-container">
+          <div className="input-keys">
+            <div className="function-keys">
+              <button onClick={handleClick} type="button" className="key">
+                AC
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                +/-
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                %
+              </button>
+            </div>
+            <div className="digit-keys">
+              <button onClick={handleClick} type="button" className="key">
+                7
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                8
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                9
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                4
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                5
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                6
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                1
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                2
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                3
+              </button>
+              <button onClick={handleClick} type="button" className="key key0">
+                0
+              </button>
+              <button onClick={handleClick} type="button" className="key">
+                .
+              </button>
+            </div>
           </div>
-          <div className="digit-keys">
-            <button onClick={handleClick} type="button" className="key">7</button>
-            <button onClick={handleClick} type="button" className="key">8</button>
-            <button onClick={handleClick} type="button" className="key">9</button>
-            <button onClick={handleClick} type="button" className="key">4</button>
-            <button onClick={handleClick} type="button" className="key">5</button>
-            <button onClick={handleClick} type="button" className="key">6</button>
-            <button onClick={handleClick} type="button" className="key">1</button>
-            <button onClick={handleClick} type="button" className="key">2</button>
-            <button onClick={handleClick} type="button" className="key">3</button>
-            <button onClick={handleClick} type="button" className="key key0">0</button>
-            <button onClick={handleClick} type="button" className="key">.</button>
+          <div className="operator-keys">
+            <button
+              onClick={handleClick}
+              type="button"
+              className="key orange-key"
+            >
+              ÷
+            </button>
+            <button
+              onClick={handleClick}
+              type="button"
+              className="key orange-key"
+            >
+              x
+            </button>
+            <button
+              onClick={handleClick}
+              type="button"
+              className="key orange-key"
+            >
+              -
+            </button>
+            <button
+              onClick={handleClick}
+              type="button"
+              className="key orange-key"
+            >
+              +
+            </button>
+            <button
+              onClick={handleClick}
+              type="button"
+              className="key orange-key"
+            >
+              =
+            </button>
           </div>
-        </div>
-        <div className="operator-keys">
-          <button onClick={handleClick} type="button" className="key orange-key">÷</button>
-          <button onClick={handleClick} type="button" className="key orange-key">x</button>
-          <button onClick={handleClick} type="button" className="key orange-key">-</button>
-          <button onClick={handleClick} type="button" className="key orange-key">+</button>
-          <button onClick={handleClick} type="button" className="key orange-key">=</button>
         </div>
       </div>
     </div>
