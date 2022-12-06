@@ -15,11 +15,11 @@ export default function Calculator() {
   };
 
   return (
-    <div>
-      <h1>Lets do some Math!</h1>
+    <div className="calculator-container">
+      <h2>Lets do some Math!</h2>
       <div className="calculator">
         <div className="calculator-show">{state.next || state.total}</div>
-        <div className="calculator-container">
+        <div className="calculator-con">
           <div className="input-keys">
             <div className="function-keys">
               <button onClick={handleClick} type="button" className="key">

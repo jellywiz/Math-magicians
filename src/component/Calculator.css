@@ -1,5 +1,20 @@
+.calculator-container {
+  display: flex;
+  text-align: center;
+  height: 530px;
+  margin: 0 auto 0;
+  width: 93%;
+  border: #810ca8 2px solid;
+}
+
+.calculator-container > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #810ca8;
+}
+
 .calculator {
-  margin: 100px auto;
+  margin: 100px auto 10px;
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -30,7 +45,7 @@
   border: 1px solid #000;
 }
 
-.calculator-container {
+.calculator-con {
   display: flex;
   flex-direction: row;
 }
