@@ -16,4 +16,8 @@ describe('Testing operation functions', () => {
   test('Division', () => {
     expect(operate(885, 10, '÷')).toBe('88.5');
   });
+
+  test('Modulus', () => {
+    expect(operate(223, 2, '%')).toBe('1');
+  });
 });
