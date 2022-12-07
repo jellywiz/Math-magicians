@@ -23,4 +23,15 @@ describe('calculate.js tests', () => {
     expect(calculate(obj, buttonName).total).toBe('-118');
     expect(calculate(obj, buttonName).next).toBeNull();
   });
+  test('Multiplication', () => {
+    const buttonName = 'x';
+    const obj = {
+      total: '3',
+      next: '10',
+      operation: buttonName,
+    };
+    expect(calculate(obj, buttonName).operation).toBe(buttonName);
+    expect(calculate(obj, buttonName).total).toBe('30');
+    expect(calculate(obj, buttonName).next).toBeNull();
+  });
 });
