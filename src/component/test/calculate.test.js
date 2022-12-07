@@ -65,4 +65,15 @@ describe('calculate.js tests', () => {
     expect(calculate(object, buttonName).operation).toBe(buttonName);
     expect(calculate(object, buttonName).next).toBe('1920.');
   });
+  test('Return Result (=)', () => {
+    const buttonName = '=';
+    const object = {
+      total: '201',
+      next: '-6',
+      operation: 'x',
+    };
+    expect(calculate(object, buttonName).operation).toBe(null);
+    expect(calculate(object, buttonName).total).toBe('-1206');
+    expect(calculate(object, buttonName).next).toBe(null);
+  });
 });
