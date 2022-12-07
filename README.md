@@ -131,6 +131,12 @@ You can deploy this project using: `npm run deploy`
 - LinkedIn: [@Muzaffer Dler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
 - LinkedIn: [@Muzaffer Dler](https://www.linkedin.com/in/muzaffer-dler-473484205/)
 
+👤 **Simon Gideon**
+
+- GitHub: [@SimonGideon](https://github.com/SimonGideon)
+- Twitter: [@Simo_Giddy](https://twitter.com/Simo_Giddy)
+- LinkedIn: [mnayi-gideon](https://linkedin.com/in/mnayi-gideon)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
