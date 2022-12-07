@@ -8,4 +8,8 @@ describe('Testing operation functions', () => {
   test('Multiplication', () => {
     expect(operate(44, 3, 'x')).toBe('132');
   });
+
+  test('Subtraction', () => {
+    expect(operate(112, 203, '-')).toBe('-91');
+  });
 });
