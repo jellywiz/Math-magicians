@@ -12,4 +12,8 @@ describe('Testing operation functions', () => {
   test('Subtraction', () => {
     expect(operate(112, 203, '-')).toBe('-91');
   });
+
+  test('Division', () => {
+    expect(operate(885, 10, '÷')).toBe('88.5');
+  });
 });
