@@ -45,4 +45,14 @@ describe('calculate.js tests', () => {
     expect(calculate(obj, buttonName).total).toBe('1262');
     expect(calculate(obj, buttonName).next).toBeNull();
   });
+  test('Inversion Operator', () => {
+    const buttonName = '+/-';
+    const object = {
+      total: '7070',
+      next: '-1986',
+      operation: buttonName,
+    };
+    expect(calculate(object, buttonName).operation).toBe(buttonName);
+    expect(calculate(object, buttonName).next).toBe('1986');
+  });
 });
