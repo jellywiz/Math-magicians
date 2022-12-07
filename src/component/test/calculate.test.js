@@ -55,4 +55,14 @@ describe('calculate.js tests', () => {
     expect(calculate(object, buttonName).operation).toBe(buttonName);
     expect(calculate(object, buttonName).next).toBe('1986');
   });
+  test('Dot notation', () => {
+    const buttonName = '.';
+    const object = {
+      total: '3980',
+      next: '1920',
+      operation: buttonName,
+    };
+    expect(calculate(object, buttonName).operation).toBe(buttonName);
+    expect(calculate(object, buttonName).next).toBe('1920.');
+  });
 });
