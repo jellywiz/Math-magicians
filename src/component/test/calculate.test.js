@@ -12,4 +12,15 @@ describe('calculate.js tests', () => {
     expect(calculate(object, buttonName).total).toBe('85');
     expect(calculate(object, buttonName).next).toBe(null);
   });
+  test('Substraction', () => {
+    const buttonName = '-';
+    const obj = {
+      total: '332',
+      next: '450',
+      operation: buttonName,
+    };
+    expect(calculate(obj, buttonName).operation).toBe(buttonName);
+    expect(calculate(obj, buttonName).total).toBe('-118');
+    expect(calculate(obj, buttonName).next).toBeNull();
+  });
 });
