@@ -34,4 +34,15 @@ describe('calculate.js tests', () => {
     expect(calculate(obj, buttonName).total).toBe('30');
     expect(calculate(obj, buttonName).next).toBeNull();
   });
+  test('Division', () => {
+    const buttonName = '÷';
+    const obj = {
+      total: '2524',
+      next: '2',
+      operation: buttonName,
+    };
+    expect(calculate(obj, buttonName).operation).toBe(buttonName);
+    expect(calculate(obj, buttonName).total).toBe('1262');
+    expect(calculate(obj, buttonName).next).toBeNull();
+  });
 });
