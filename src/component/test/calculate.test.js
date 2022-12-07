@@ -76,4 +76,15 @@ describe('calculate.js tests', () => {
     expect(calculate(object, buttonName).total).toBe('-1206');
     expect(calculate(object, buttonName).next).toBe(null);
   });
+  test('AC Button', () => {
+    const buttonName = 'AC';
+    const object = {
+      total: '910',
+      next: '159',
+      operation: buttonName,
+    };
+    expect(calculate(object, buttonName).operation).toBe(null);
+    expect(calculate(object, buttonName).total).toBe(null);
+    expect(calculate(object, buttonName).next).toBe(null);
+  });
 });
